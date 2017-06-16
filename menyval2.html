@@ -1,0 +1,56 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <ul>
+            <li> <a href="index.html">Startsida </a></li>
+            <li> <a href="menyval1.html">Mitt lag </a></li>
+            <li> <a href="menyval2.html">Kända handbollsspelare i Sverige </a></li>
+            <li> <a href="menyval3.html"> Matchtröja + boll </a></li>
+        </ul>
+
+       <h1>Kända handbollsspelare i Sverige</h1>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+        <p class="text"> Damer: Isabelle Guldén nr 20, Nathalie Hagman nr24, Johanna Bundsen nr1, Louise Sand nr9,
+         Carin StrömbergJamina nr6, Jamina Roberts nr8,
+          Ida Odén nr28. </p>
+
+        <img src="http://www.fresks.se/storage/ma/7d58e301dc6848928269d2ecc717adde/0342375f26894c4fbb97b4b874f0e7ac/jpg/6/Handboll_3-980x457.jpg" class="storbild">
+
+        <p class="text"> Herrar: Mikael Appelgren nr20, Jonas Källman nr6 ,Andreas Nilsson nr35 ,Niclas Ekberg nr10 ,
+         Lukas Nilsson nr11 ,Mattias Zachrisson nr32. Det finns ju såklart fler kända handbollsspelare i Sverige men dem här är några....</p>
+
+        <img src="http://www.fresks.se/storage/ma/8fdb22439b4040a6886e2fc3d7d8e12b/b4eb5ff88bc74260afaa1cf448ea4b72/jpg/-7/Handboll_2-980x457.jpg" class="storbild">
+    </main>
+</body>
+</html>

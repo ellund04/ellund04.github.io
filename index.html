@@ -1,0 +1,66 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>handbollssidan</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+       <ul>
+            <li> <a href="index.html">Startsida </a></li>
+            <li> <a href="menyval1.html">Mitt lag </a></li>
+            <li> <a href="menyval2.html">Kända handbollsspelare i Sverige </a></li>
+            <li> <a href="menyval3.html"> Matchtröja + boll </a></li>
+        </ul>
+       <h1>Handboll</h1>
+
+    </header>
+
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+        <p class="text"> Välkommen till min sida om handboll!</p>
+
+        <img src="http://www6.idrottonline.se/globalassets/mantorps-if-hf---handboll/snabbuppladdade-bilder/handboll.png" class="storbild">
+
+        <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/165826955/?autostart=false" frameborder="0" allowfullscre></iframe id="video1">
+
+        <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/165827277/?autostart=false" frameborder="0" allowfullscreen></iframe id="video2">
+
+        <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/165827070/?autostart=false" frameborder="0" allowfullscreen></iframe id="video3">
+    
+        <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/165828424/?autostart=false" frameborder="0" allowfullscreen></iframe id="video4">
+    
+
+        
+    
+
+    
+    
+    </main>
+
+</body>
+</html>
